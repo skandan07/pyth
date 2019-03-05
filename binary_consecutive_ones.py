@@ -5,16 +5,15 @@ while d!=0:
         b.append("1")
     else:
         b.append("0")
-    d//2
+    d=d//2
 
 b.reverse()
-print(b)
+#print(b)
 x="".join(b)
-print(x)
-l=len(x)
+#print(x)
 s=0
 s_max=0
-for i in range(0,l):
+for i in range(0,len(x):
     if x[i]=="1":
         s=s+1
     elif x[i]=="0":
